@@ -62,3 +62,57 @@ Well-preprocessed dataset ready for ML.
 Trained models for binary sentiment classification.
 
 Accuracy comparison between Naive Bayes and Logistic Regression.
+
+**TASK 2: 📰 News Category Classification**
+Classify news articles into categories like Sports, Business, Politics, and Technology using NLP and machine learning.
+
+**📌 Project Overview**
+This project tackles multiclass classification using the AG News dataset. The goal is to build a robust pipeline that preprocesses text, extracts meaningful features, and trains a classifier to predict the correct news category.
+
+**🧠 Key Concepts Covered**
+Multiclass classification
+
+Text preprocessing (tokenization, stopword removal, lemmatization)
+
+Feature engineering using TF-IDF or word embeddings
+
+Model training with Logistic Regression, Random Forest, or SVM
+
+**🛠️ Tools & Libraries**
+pandas for data handling
+
+scikit-learn for preprocessing and modeling
+
+Optional: XGBoost, LightGBM, or Keras for advanced models
+
+**🔍 Workflow Summary**
+Data Loading Load AG News dataset and inspect class distribution.
+
+Text Preprocessing
+
+Tokenize text
+
+Remove stopwords
+
+Apply lemmatization
+
+Feature Extraction
+
+Use TF-IDF or pre-trained word embeddings
+
+Optionally, try dimensionality reduction (e.g., PCA)
+
+Model Training
+
+Train a multiclass classifier
+
+Evaluate using accuracy, precision, recall, and F1-score
+
+Bonus Visualizations
+
+Bar plots or word clouds for frequent words per category
+
+Neural network implementation using Keras (optional)
+
+**📊 Results**
+Model performance metrics and visualizations will be added here once training is complete.
