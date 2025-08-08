@@ -168,3 +168,30 @@ This project classifies news articles as **real or fake** using natural language
    git clone https://github.com/yourusername/fake-news-detector.git
    cd fake-news-detector
 
+  **TASK 4:**
+  
+# 📰 Named Entity Recognition (NER) from News Articles
+
+This project performs Named Entity Recognition (NER) on news article text using SpaCy's pre-trained models. It compares entity extraction results from two different models: `en_core_web_sm` and `en_core_web_md`.
+
+---
+
+## 📦 Requirements
+
+Install the required packages and models:
+
+```bash
+pip install spacy pandas
+python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_md
+
+📁 File Structure:
+ner_news_project/
+│
+├── ner_news.py             # Main script for NER extraction and comparison
+├── sample_text.txt         # Optional: News article text file
+├── ner_results.csv         # Output file with extracted entities
+└── README.md               # Project documentation
+🚀 How to Run:
+python ner_news.py
+
