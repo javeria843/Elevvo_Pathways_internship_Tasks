@@ -1,5 +1,6 @@
 **TASK 1:**
 **Sentiment Analysis on Amazon Product Reviews**
+
 This project analyzes Amazon product reviews to classify them as positive or negative using Natural Language Processing (NLP) techniques and Machine Learning models. The performance of Naive Bayes is compared with Logistic Regression.
 
 🎯 Objective
@@ -64,7 +65,8 @@ Trained models for binary sentiment classification.
 
 Accuracy comparison between Naive Bayes and Logistic Regression.
 
-**TASK 2: 📰 News Category Classification**
+**TASK 2: 
+📰 News Category Classification**
 Classify news articles into categories like Sports, Business, Politics, and Technology using NLP and machine learning.
 
 **📌 Project Overview**
