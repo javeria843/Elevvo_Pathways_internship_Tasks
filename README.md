@@ -119,3 +119,52 @@ Neural network implementation using Keras (optional)
 
 **📊 Results**
 Model performance metrics and visualizations will be added here once training is complete.
+
+**TASK 3:**
+
+# 📰 Fake News Detection using TF-IDF and Logistic Regression
+
+This project classifies news articles as **real or fake** using natural language processing techniques like **TF-IDF vectorization**, **text preprocessing**, and **Logistic Regression**. It also includes optional **Named Entity Recognition (NER)** to enhance feature extraction.
+
+---
+
+## 📂 Dataset
+
+- Source: [Fake and Real News Dataset on Kaggle](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
+- Files used:
+  - `Fake.csv` → labeled as `0`
+  - `True.csv` → labeled as `1`
+
+---
+
+## ⚙️ Features
+
+- Text preprocessing:
+  - Lowercasing
+  - Removing stopwords
+  - Lemmatization
+- TF-IDF vectorization
+- Named Entity Recognition (optional)
+- Logistic Regression classifier
+- Evaluation using Accuracy and F1-score
+
+---
+
+## 🧪 Model Performance
+
+| Metric     | Value (Example) |
+|------------|-----------------|
+| Accuracy   | 94.2%           |
+| F1 Score   | 94.0%           |
+
+> You can swap Logistic Regression with SVM for comparison.
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/fake-news-detector.git
+   cd fake-news-detector
+
