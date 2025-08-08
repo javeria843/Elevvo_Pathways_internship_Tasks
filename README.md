@@ -1,4 +1,4 @@
-**Sentiment Analysis on Amazon Product Reviews**
+fire**Sentiment Analysis on Amazon Product Reviews**
 This project performs sentiment analysis on Amazon product reviews using Naive Bayes and compares its accuracy with Logistic Regression.
 
 **Objective**
